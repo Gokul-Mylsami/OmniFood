@@ -39,7 +39,7 @@ h3 {
   height: 46rem;
   margin: auto;
   margin-top: 10rem;
-  background-color: rgb(90, 168, 231);
+  background-color: rgb(90, 168, 231, 0.5);
   position: relative;
   border-radius: 9px;
 }
