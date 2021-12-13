@@ -47,7 +47,7 @@ nav {
       rgba(34, 34, 34, 0.5),
       rgba(34, 34, 34, 0.5)
     ),
-    url("/image/background-hero-section.jpg");
+    url("../image/background-hero-section.jpg");
   height: 75vh;
   background-size: cover;
 }
