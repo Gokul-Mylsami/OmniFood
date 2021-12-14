@@ -1,99 +1,99 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-*:focus {
-  outline: none;
 
-  box-shadow: 0 0 0 0.4rem #c3fae8;
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.4rem #c3fae8;
 }
+
 ::placeholder {
-  color: #999;
-  font-family: inherit;
+    color: #999;
+    font-family: inherit;
 }
+
 html {
-  font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
-  height: 100vh;
-  background-image: linear-gradient(
-      rgba(34, 34, 34, 0.6),
-      rgba(34, 34, 34, 0.6)
-    ),
-    url("../image/login/login_background.jpg");
-  background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient( rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../image/login/login_background.jpg");
+    background-size: cover;
 }
+
 h3 {
-  font-size: 3.6rem;
-  font-weight: 700;
-  color: #444;
-  text-align: center;
-  padding: 5.6rem;
-  display: block;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #444;
+    text-align: center;
+    padding: 5.6rem;
+    display: block;
 }
+
 .section-login {
-  width: 50rem;
-  height: 46rem;
-  margin: auto;
-  margin-top: 10rem;
-  background-color: rgb(90, 168, 231, 0.5);
-  position: relative;
-  border-radius: 9px;
+    width: 50rem;
+    height: 46rem;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: rgb(90, 168, 231, 0.5);
+    position: relative;
+    border-radius: 9px;
 }
 
 .user-icon {
-  height: 5.6rem;
-  width: 5.6rem;
-  color: #333;
-  padding: 1.2rem;
-  background-color: #2f9e44;
-  position: absolute;
-  top: -4rem;
-  left: 21.4rem;
-  border-radius: 50rem;
+    height: 5.6rem;
+    width: 5.6rem;
+    color: #333;
+    padding: 1.2rem;
+    background-color: #2f9e44;
+    position: absolute;
+    top: -4rem;
+    left: 21.4rem;
+    border-radius: 50rem;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  font-family: inherit;
-  font-size: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: inherit;
+    font-size: 2.4rem;
 }
 
 input {
-  width: 28rem;
-  height: 4.4rem;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  border: none;
-  font-family: inherit;
-  font-size: 1.6rem;
+    width: 28rem;
+    height: 4.4rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    border: none;
+    font-family: inherit;
+    font-size: 1.6rem;
 }
+
 label {
-  font-weight: 600;
-  color: #333;
+    font-weight: 600;
+    color: #333;
 }
 
 .btn {
-  padding: 1.6rem 3.2rem;
-  font-family: inherit;
-  font-weight: 600;
-  border-radius: 9px;
-  border: none;
-  position: relative;
-  background-color: #2f9e44;
+    padding: 1.6rem 3.2rem;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: 9px;
+    border: none;
+    position: relative;
+    background-color: #2f9e44;
 }
 
 .btn-login {
-  /* position: absolute;
+    /* position: absolute;
   bottom: -2.5rem;
   left: 20rem; */
-
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
