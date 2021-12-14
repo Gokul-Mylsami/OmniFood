@@ -12,7 +12,7 @@ html {
 .grid-3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
+  column-gap: 3.5rem;
 }
 /* 
 ==========================
@@ -149,7 +149,8 @@ html {
 }
 
 .food-image {
-  max-width: 50rem;
+  width: 50rem;
+  height: 35rem;
   border-radius: 14px;
 }
 
@@ -189,13 +190,13 @@ html {
   background-color: rgb(37, 111, 239);
   border-radius: 7px;
   font-size: 2rem;
-  top: 28rem;
+  top: 30rem;
   left: 0;
 }
 
 .food-rating {
   position: absolute;
-  top: 34rem;
+  top: 36rem;
   right: 2rem;
   color: #fff;
   padding: 0.3rem 1rem;
