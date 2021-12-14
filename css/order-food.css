@@ -13,6 +13,7 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3.5rem;
+  row-gap: 10rem;
 }
 /* 
 ==========================
@@ -149,7 +150,7 @@ html {
 }
 
 .food-image {
-  width: 50rem;
+  width: 48rem;
   height: 35rem;
   border-radius: 14px;
 }
@@ -168,13 +169,19 @@ html {
   margin-top: 2rem;
   color: #666;
   border-bottom: solid 1px #ddd;
-  margin-bottom: 10rem;
 }
 .food-des {
   font-size: 2rem;
 }
 .food-contanier {
   position: relative;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.food-contanier:hover {
+  box-shadow: 0 0 1rem #999;
 }
 .food-price {
   font-size: 2rem;
@@ -191,12 +198,12 @@ html {
   border-radius: 7px;
   font-size: 2rem;
   top: 30rem;
-  left: 0;
+  left: 1rem;
 }
 
 .food-rating {
   position: absolute;
-  top: 36rem;
+  top: 38rem;
   right: 2rem;
   color: #fff;
   padding: 0.3rem 1rem;
