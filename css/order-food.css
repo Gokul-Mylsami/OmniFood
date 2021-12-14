@@ -9,6 +9,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
 /* 
 ==========================
         HEAD CONTAINER
@@ -128,4 +133,73 @@ html {
 
 .fillter-links:hover {
   background-color: #eee;
+}
+
+.section-food {
+  max-width: 150rem;
+  margin: auto;
+}
+.food-heading {
+  margin-top: 6rem;
+  font-size: 3.6rem;
+}
+
+.mar-top-10 {
+  margin-top: 5rem;
+}
+
+.food-image {
+  max-width: 50rem;
+  border-radius: 14px;
+}
+
+.food-title {
+  font-size: 2.6rem;
+  font-family: "Roboto";
+  font-weight: 800;
+  color: #444;
+  margin-top: 1rem;
+}
+
+.food-des-price {
+  display: flex;
+  gap: 15rem;
+  margin-top: 2rem;
+  color: #666;
+  border-bottom: solid 1px #ddd;
+  margin-bottom: 10rem;
+}
+.food-des {
+  font-size: 2rem;
+}
+.food-contanier {
+  position: relative;
+}
+.food-price {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.food-offer {
+  position: absolute;
+  display: inline;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  background-color: rgb(37, 111, 239);
+  border-radius: 7px;
+  font-size: 2rem;
+  top: 28rem;
+  left: 0;
+}
+
+.food-rating {
+  position: absolute;
+  top: 34rem;
+  right: 2rem;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 9px;
+  background-color: #099268;
+  font-size: 2rem;
 }
