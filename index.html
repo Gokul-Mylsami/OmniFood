@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,90 +10,73 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet" />
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Altofood</title>
-  </head>
-  <body>
-    <div class="head-container">
-      <header class="section-head">
-        <nav>
-          <a href="#">LOGO</a>
-          <ul class="nav-links-list">
-            <li><a href="#" class="nav-link">Add restaurent</a></li>
-            <li><a href="login.html" class="nav-link">Log in</a></li>
-            <li><a href="adduser.html" class="nav-link">Sign up</a></li>
-          </ul>
-        </nav>
+</head>
 
-        <h1 class="company-heading">Omnifood</h1>
-        <p class="sub-heading">
-          A Healthy meal delivered to your door, every single day
-        </p>
-        <div class="location-search-dish">
-          <div class="location">
-            <p>
-              <ion-icon
-                class="location-icon"
-                name="location-outline"
-              ></ion-icon>
+<body>
+    <div class="head-container">
+        <header class="section-head">
+            <nav>
+                <a href="#">LOGO</a>
+                <ul class="nav-links-list">
+                    <li><a href="#" class="nav-link">Add restaurent</a></li>
+                    <li><a href="login.html" class="nav-link">Log in</a></li>
+                    <li><a href="adduser.html" class="nav-link">Sign up</a></li>
+                </ul>
+            </nav>
+
+            <h1 class="company-heading">Omnifood</h1>
+            <p class="sub-heading">
+                A Healthy meal delivered to your door, every single day
             </p>
-            <select id="select-location" required>
+            <div class="location-search-dish">
+                <div class="location">
+                    <p>
+                        <ion-icon class="location-icon" name="location-outline"></ion-icon>
+                    </p>
+                    <select id="select-location" required>
               Select the City
               <option value="erode">Erode</option>
               <option value="Coimbathore">Coimbathore</option>
               <option value="Thirupur">Thirupur</option>
             </select>
-          </div>
-          <span>|</span>
-          <div class="search-dish">
-            <p>
-              <ion-icon class="search-icon" name="search-outline"></ion-icon>
-            </p>
-            <input
-              id="entered-dish"
-              type="text"
-              placeholder="Search for restaurant, cusine or a dish"
-            />
-          </div>
-        </div>
-      </header>
+                </div>
+                <span>|</span>
+                <div class="search-dish">
+                    <p>
+                        <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                    </p>
+                    <input id="entered-dish" type="text" placeholder="Search for restaurant, cusine or a dish" />
+                </div>
+            </div>
+        </header>
     </div>
     <main>
-      <section class="section-featured">
-        <h2 class="heading-featured-in">As featured in</h2>
-        <div class="logos">
-          <img src="image/logos/techcrunch.png" alt="techcrunch" />
-          <img src="image/logos/business-insider.png" alt="business-insider" />
-          <img
-            src="image/logos/the-new-york-times.png"
-            alt="The New York Time logos"
-          />
-          <img src="imgage/logo/forbes.png" alt="Forbes logo" />
-          <img src="image/logos/usa-today.png" alt="USA Today" />
-        </div>
-      </section>
+        <section class="section-featured">
+            <h2 class="heading-featured-in">As featured in</h2>
+            <div class="logos">
+                <img src="image/logos/techcrunch.png" alt="techcrunch" />
+                <img src="image/logos/business-insider.png" alt="business-insider" />
+                <img src="image/logos/the-new-york-times.png" alt="The New York Time logos" />
+                <img src="image/logos/forbes.png" alt="Forbes logo" />
+                <img src="image/logos/usa-today.png" alt="USA Today" />
+            </div>
+        </section>
 
-      <section class="section-orderfood">
-        <div class="container-orderfood">
-          <img class="orderfood-img" src="image/foods/order-foods-1.jpg" />
-          <div>
-            <h3 class="order-food-heading">Order Food Online</h3>
-            <p class="order-food-des">Stay home and order to your doorstep</p>
-          </div>
-        </div>
-      </section>
+        <section class="section-orderfood">
+            <div class="container-orderfood">
+                <img class="orderfood-img" src="image/foods/order-foods-1.jpg" />
+                <div>
+                    <h3 class="order-food-heading">Order Food Online</h3>
+                    <p class="order-food-des">Stay home and order to your doorstep</p>
+                </div>
+            </div>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
