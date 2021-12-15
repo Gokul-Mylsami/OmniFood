@@ -1,20 +1,22 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
 }
 
 .grid-3-cols {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 3.5rem;
-  row-gap: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3.5rem;
+    row-gap: 10rem;
 }
+
+
 /* 
 ==========================
         HEAD CONTAINER
@@ -22,192 +24,202 @@ html {
 */
 
 .head-container {
-  padding: 4rem;
-  display: flex;
-  justify-content: space-around;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
 }
-.location-search-dish {
-  color: #333;
-  display: flex;
-  max-width: 85rem;
-  height: 7rem;
-  background-color: #fff;
-  border-radius: 9px;
-  padding: 2.4rem;
-  align-items: center;
-  box-shadow: 0 0 4.8rem rgba(99, 43, 43, 0.1);
 
-  justify-content: center;
+.location-search-dish {
+    color: #333;
+    display: flex;
+    max-width: 85rem;
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 2.4rem;
+    align-items: center;
+    box-shadow: 0 0 4.8rem rgba(99, 43, 43, 0.1);
+    justify-content: center;
 }
 
 .location-search-dish span {
-  color: #777;
-  font-size: 3.6rem;
+    color: #777;
+    font-size: 3.6rem;
 }
 
 .location {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .location select {
-  border: none;
-  padding: 1.5rem 3rem;
-  border-radius: 12px;
-  font-size: 2rem;
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: 12px;
+    font-size: 2rem;
 }
 
 .location-icon {
-  width: 3.6rem;
-  height: 3.6rem;
-  color: red;
+    width: 3.6rem;
+    height: 3.6rem;
+    color: red;
 }
 
 .search-dish {
-  display: flex;
-  gap: 3rem;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 
 #entered-dish::placeholder {
-  font-size: 1.8rem;
-  color: #777;
+    font-size: 1.8rem;
+    color: #777;
 }
 
 #entered-dish {
-  border: none;
-  padding: 1.5rem 3rem;
-  width: 45rem;
-  font-size: 1.8rem;
+    border: none;
+    padding: 1.5rem 3rem;
+    width: 45rem;
+    font-size: 1.8rem;
 }
 
 .search-icon {
-  width: 3.4rem;
-  height: 3.4rem;
-  color: #777;
-  margin-left: 2rem;
+    width: 3.4rem;
+    height: 3.4rem;
+    color: #777;
+    margin-left: 2rem;
 }
 
 .links {
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #555;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #555;
 }
 
 .company-name {
-  font-size: 4.8rem;
-  font-weight: 800;
-  margin-bottom: -5rem;
+    font-size: 4.8rem;
+    font-weight: 800;
+    margin-bottom: -5rem;
 }
 
 .log-screen a {
-  font-size: 2rem;
-  margin-left: 5rem;
+    font-size: 2rem;
+    margin-left: 5rem;
 }
+
 .log-screen {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .section-filters {
-  display: flex;
-  gap: 4rem;
-  margin-left: 10rem;
+    display: flex;
+    gap: 4rem;
+    margin-left: 10rem;
 }
 
 .fillter-links {
-  font-size: 2rem;
-  color: #555;
-  text-decoration: none;
-  padding: 1rem;
-  border: solid 1px #bbb;
-  border-radius: 12px;
+    font-size: 2rem;
+    color: #555;
+    text-decoration: none;
+    padding: 1rem;
+    border: solid 1px #bbb;
+    border-radius: 12px;
 }
 
 .fiter-icons {
-  width: 2.4rem;
-  height: 2.4rem;
-  margin-right: 1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1rem;
 }
 
 .fillter-links:hover {
-  background-color: #eee;
+    background-color: #eee;
 }
 
 .section-food {
-  max-width: 150rem;
-  margin: auto;
+    max-width: 150rem;
+    margin: auto;
 }
+
 .food-heading {
-  margin-top: 6rem;
-  font-size: 3.6rem;
+    margin-top: 6rem;
+    font-size: 3.6rem;
 }
 
 .mar-top-10 {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 .food-image {
-  width: 48rem;
-  height: 35rem;
-  border-radius: 14px;
+    width: 48rem;
+    height: 35rem;
+    border-radius: 14px;
 }
 
 .food-title {
-  font-size: 2.6rem;
-  font-family: "Roboto";
-  font-weight: 800;
-  color: #444;
-  margin-top: 1rem;
+    font-size: 2.6rem;
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #444;
+    margin-top: 1rem;
 }
 
 .food-des-price {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-  color: #666;
-  border-bottom: solid 1px #ddd;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    color: #666;
+    border-bottom: solid 1px #ddd;
 }
+
 .food-des {
-  font-size: 2rem;
+    font-size: 2rem;
 }
+
 .food-contanier {
-  position: relative;
-  padding: 1rem;
-  border-radius: 12px;
-  transition: all 0.4s;
+    position: relative;
+    padding: 1rem;
+    border-radius: 12px;
+    transition: all 0.4s;
 }
 
 .food-contanier:hover {
-  box-shadow: 0 0 1rem #999;
+    box-shadow: 0 0 1rem #999;
 }
+
 .food-price {
-  font-size: 2rem;
-  margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
 .food-offer {
-  position: absolute;
-  display: inline;
-  padding: 0.5rem 1.5rem;
-  color: #fff;
-  font-weight: 500;
-  background-color: rgb(37, 111, 239);
-  border-radius: 7px;
-  font-size: 2rem;
-  top: 30rem;
-  left: 1rem;
+    position: absolute;
+    display: inline;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgb(37, 111, 239);
+    border-radius: 7px;
+    font-size: 2rem;
+    top: 30rem;
+    left: 1rem;
 }
 
 .food-rating {
-  position: absolute;
-  top: 38rem;
-  right: 2rem;
-  color: #fff;
-  padding: 0.3rem 1rem;
-  border-radius: 9px;
-  background-color: #099268;
-  font-size: 2rem;
+    position: absolute;
+    top: 38rem;
+    right: 2rem;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 9px;
+    background-color: #099268;
+    font-size: 2rem;
+}
+
+.food-link {
+    text-decoration: none;
+    color: #777;
 }
